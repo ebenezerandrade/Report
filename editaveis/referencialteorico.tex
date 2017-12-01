@@ -3,7 +3,7 @@
 \section{História}
 O TCU é um orgão adminstrativo autônomo e independetente que auxilia o Congresso Nacional (CN) em realizar o controle externo dos recursos públicos federais \cite{TCUHistoria}. Além disso o orgão possui sede em Brasília no Distrito Federal (DF) e jurisdição em todo território nacional \cite{Art73}. 
 
-A instituição teve seu surgimento pela Constituição de \textbf{1891}, sob influência de Rui Barbosa, institucionalizou definitivamente o TCU, mas sua instalação só ocorreu em 17 de janeiro de \textbf{1893}, graças ao emprenho do Ministro da Fazenda do governo de Floriano Peixoto, Serzedello Corrêa\cite{TCUHistoriaJUS}. Logo, o TCU teve a competência para exame, revisão e julgamento de todas as operações relacionadas com a receita e a despesa da União. Nos anos seguintes as responsabilidades do TCU foram acrescentadas\cite{TCUHistoriaJUS}:
+A instituição teve seu surgimento pela Constituição de \textbf{1891}, sob influência de Rui Barbosa, institucionalizou definitivamente o TCU, mas sua instalação só ocorreu em 17 de janeiro de \textbf{1893}, graças ao emprenho do Ministro da Fazenda Serzedello Corrêa  do governo de Floriano Peixoto \cite{TCUHistoriaJUS}. Logo, o TCU teve a competência para exame, revisão e julgamento de todas as operações relacionadas com a receita e a despesa da União. Nos anos seguintes as responsabilidades do TCU foram acrescentadas\cite{TCUHistoriaJUS}:
 
 \begin{itemize}
 	\item \textbf{1937:} Com exceção do parecer sobre as contas da presidência, todas as atribuições ao tribunal foram mantidas;
@@ -67,6 +67,81 @@ A Figura \ref{Cronograma} apresenta o cronograma de atividades realizado pelo es
 \end{figure}
 
 \chapter[Resultados e Discussão]{Resultados e Discussão}
+
+Como resultados das atividades já realizadas o Sidarq atingiu sua primeira versão estável (\textbf{V1.0.0}) e que atualmente está em ambiente de produção, sendo utilizada pelos arquivistas do CDOC.
+
+\begin{itemize}
+	\item Funcionalidades implementas pelo estagiário.
+	\begin{todolist}
+		\item[\done] Relatório Geral Sobre Caixas;
+		\item[\done] Cadastro de Avulsos;
+		\item[\done] Acondicionamento de Avulsos;
+		\item[\done] Pesquisa de Avulsos;
+		\item[\done] Cadastro de Encadernados;
+		\item[\done] Lista de Caixas em Acondicionamento;
+		\item[\done] Inserção de Link do E-TCU no Cadastro de Processos;
+		\item[\done] Relatório de Guia de Descarte;
+	\end{todolist}
+\end{itemize}
+
+Em termos de manutenção corretiva foi aplicado ao Sidarq as correções de \textit{bugs} de acordo com o Apex, os erros que não possuem marcação significam que o estagiário, não aplicou nenhuma correção do tipo: 
+
+\begin{itemize}
+	\item Erros:
+	\begin{todolist}
+		\item[\done] Referências com sintaxe de substituição;
+		\item[\done] Referências com sintaxe de coluna;
+		\item[\done] Referências com Bind Variable Syntax;
+		\item[\done] Referências Declarativas de Itens de Aplicação, Itens de Página, Colunas ou Filtros de Relatório Interativo;
+		\item[\done] Existe um número de página de referência;
+		\item[\done] O código válido SQL ou PL / SQL;
+		\item[\done] Fetch, DML, MR * Os processos são válidos
+		\item Ramo incondicional antes de outros ramos;
+		\item[\done] Botão Referenciado no Botão Quando Pressionado existe;
+		\item[\done] O botão não é compatível com ações dinâmicas;
+	\end{todolist}
+	
+	\item Segurança:
+	\begin{todolist}
+		\item[\done] Uso inapropriado da sintaxe de substituição;
+		\item[\done] Atributos do aplicativo que podem ser bloqueados;
+		\item[\done] Autorização;
+		\item[\done] Proteção do Estado de Sessão;
+		\item[\done] Configurações de segurança do navegador;
+	\end{todolist}
+
+	\item Warnings:
+	\begin{todolist}
+		\item[\done] Item referenciado está na página atual;
+		\item[\done] O item referenciado é Item da página da página de destino;
+		\item[\done] Referências de Item da Página em uma Cadeia de Caracteres;
+		\item[\done] Comprimento do item ou nome da coluna do formulário tabular;
+		\item[\done] Referências inconsistentes entre ações dinâmicas e botões;
+		\item[\done] Itens protegidos em chamadas AJAX;
+	\end{todolist}
+
+    \item Performance:
+    \begin{todolist}
+    	\item[\done] Função V usada em instruções SQL;	
+    \end{todolist}
+    
+    \item Usabilidade:
+    \begin{todolist}
+    	\item[\done] A Autorização da página de destino também está configurada para componente atual;
+    	\item[\done] Item Associado ou Coluna de Validações;
+	\end{todolist}
+
+
+	\item Garantia da Qualidade:
+	\begin{todolist}
+		\item[\done] ID do aplicativo codificado;
+		\item[\done] O Relatório tem Ordem Padrão;
+		\item[\done] Item da página tem texto de ajuda;
+		\item[\done] Valores de atributo depreciados;
+	\end{todolist}
+
+\end{itemize}
+
 
 
 
